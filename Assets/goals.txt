@@ -1,0 +1,15 @@
+
+CUTSCENE GOALS:
+Sound effects,
+Cutscene triggers,
+Player interaction is locked when cutscene begins
+
+GOALS:
+- Luce gets locked when in a cutscene,
+- a cutscene that involves movement of multiple objects with their animations,
+- depth exist when moving Luce,
+- interaction with objects as Luce,
+- add visual objects to the rooms and see how the artstyle is going to look
+
+- clean up movement code for the Player: methods and interfaces for specific things maybe,
+(subgoal: start setting up rebindable keys)

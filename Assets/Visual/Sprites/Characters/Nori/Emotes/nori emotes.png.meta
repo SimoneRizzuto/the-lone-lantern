@@ -1,0 +1,1072 @@
+fileFormatVersion: 2
+guid: 7c7a274d9b42ed94b80731fb0cd4eb63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -180024475442730086
+    second: nori emotes sprite sheet_0
+  - first:
+      213: 751245844928269505
+    second: nori emotes sprite sheet_1
+  - first:
+      213: -5077391090461442194
+    second: nori emotes sprite sheet_2
+  - first:
+      213: 8571043118965412831
+    second: nori emotes sprite sheet_3
+  - first:
+      213: -6147914731473587293
+    second: nori emotes sprite sheet_4
+  - first:
+      213: 2688004962920771583
+    second: nori emotes sprite sheet_5
+  - first:
+      213: 2752015898051030611
+    second: nori emotes sprite sheet_6
+  - first:
+      213: -2714550880432066900
+    second: nori emotes sprite sheet_7
+  - first:
+      213: -3292901353207502627
+    second: nori emotes sprite sheet_8
+  - first:
+      213: -4175544781001142805
+    second: nori emotes sprite sheet_9
+  - first:
+      213: -2554357647888749370
+    second: nori emotes sprite sheet_10
+  - first:
+      213: -4173075860482039781
+    second: nori emotes sprite sheet_11
+  - first:
+      213: -4982832652706341532
+    second: nori emotes sprite sheet_12
+  - first:
+      213: 1214794732191823871
+    second: nori emotes sprite sheet_13
+  - first:
+      213: 1354358256141009471
+    second: nori emotes sprite sheet_14
+  - first:
+      213: 6578211176294997212
+    second: nori emotes sprite sheet_15
+  - first:
+      213: 1540209720576196428
+    second: nori emotes sprite sheet_16
+  - first:
+      213: -7007596815802231076
+    second: nori emotes sprite sheet_17
+  - first:
+      213: -6138180179682713204
+    second: nori emotes sprite sheet_18
+  - first:
+      213: 7833201893371045360
+    second: nori emotes sprite sheet_19
+  - first:
+      213: 2570841205532587851
+    second: nori emotes sprite sheet_20
+  - first:
+      213: 2430283821023237063
+    second: nori emotes sprite sheet_21
+  - first:
+      213: 8299709027040075101
+    second: nori emotes sprite sheet_22
+  - first:
+      213: 8322447880396359997
+    second: nori emotes sprite sheet_23
+  - first:
+      213: -5379433804385661319
+    second: nori emotes sprite sheet_24
+  - first:
+      213: -7222633981033283832
+    second: nori emotes sprite sheet_25
+  - first:
+      213: 1157743261711409280
+    second: nori emotes sprite sheet_26
+  - first:
+      213: 2627213011922326491
+    second: nori emotes sprite sheet_27
+  - first:
+      213: 4008014683997309550
+    second: nori emotes sprite sheet_28
+  - first:
+      213: 5326016469131593261
+    second: nori emotes sprite sheet_29
+  - first:
+      213: 7985784875110808441
+    second: nori emotes sprite sheet_30
+  - first:
+      213: 7350569059179585165
+    second: nori emotes sprite sheet_31
+  - first:
+      213: 6289983205934211905
+    second: nori emotes sprite sheet_32
+  - first:
+      213: -518591155985102973
+    second: nori emotes sprite sheet_33
+  - first:
+      213: 8977197747049615969
+    second: nori emotes sprite sheet_34
+  - first:
+      213: -6361941159133731011
+    second: nori emotes sprite sheet_35
+  - first:
+      213: -2985157157086857374
+    second: nori emotes sprite sheet_36
+  - first:
+      213: -4716273656191538861
+    second: nori emotes sprite sheet_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b2c5281bc608df0800000000000000
+      internalID: -180024475442730086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 84
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc00fd9d16fc6a00800000000000000
+      internalID: 751245844928269505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 84
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fff4354bb7989b0800000000000000
+      internalID: -5077391090461442194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 84
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd35d7c2e4672f670800000000000000
+      internalID: 8571043118965412831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 84
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a33021ff183eaaa0800000000000000
+      internalID: -6147914731473587293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 84
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff2169a546bd4520800000000000000
+      internalID: 2688004962920771583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 84
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e2f83e0ef113620800000000000000
+      internalID: 2752015898051030611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 84
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae6f174b5af35ad0800000000000000
+      internalID: -2714550880432066900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8e9a17aa34d42d0800000000000000
+      internalID: -3292901353207502627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 63
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedc0b8052c7d06c0800000000000000
+      internalID: -4175544781001142805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 63
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cce948b0491d8cd0800000000000000
+      internalID: -2554357647888749370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 63
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10e5336d914616c0800000000000000
+      internalID: -4173075860482039781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 63
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d98304a1c69dab0800000000000000
+      internalID: -4982832652706341532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 63
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff73f476f51dbd010800000000000000
+      internalID: 1214794732191823871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 63
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3207e388a5abc210800000000000000
+      internalID: 1354358256141009471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 63
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc519446308a4b50800000000000000
+      internalID: 6578211176294997212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f3c8a949cef5510800000000000000
+      internalID: 1540209720576196428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd613f8e2d300ce90800000000000000
+      internalID: -7007596815802231076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c812ba6e5adc0daa0800000000000000
+      internalID: -6138180179682713204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f56c44be9f15bc60800000000000000
+      internalID: 7833201893371045360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47f4bd94767da320800000000000000
+      internalID: 2570841205532587851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3187f424a1ab120800000000000000
+      internalID: 2430283821023237063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d93d7e26d7e2370800000000000000
+      internalID: 8299709027040075101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d394ab4c0464f7370800000000000000
+      internalID: 8322447880396359997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e4dd4d4796855b0800000000000000
+      internalID: -5379433804385661319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 21
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f78d159ac04cb90800000000000000
+      internalID: -7222633981033283832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 21
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080296fcc51211010800000000000000
+      internalID: 1157743261711409280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 21
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd31ae4905cb57420800000000000000
+      internalID: 2627213011922326491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 21
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a8536ae145f9730800000000000000
+      internalID: 4008014683997309550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 21
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26087e92cfc9e940800000000000000
+      internalID: 5326016469131593261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 21
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bbaad880533de60800000000000000
+      internalID: 7985784875110808441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 21
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e50654d97720660800000000000000
+      internalID: 7350569059179585165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143a1e866628a4750800000000000000
+      internalID: 6289983205934211905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38749db57189dc8f0800000000000000
+      internalID: -518591155985102973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1625457a9c9659c70800000000000000
+      internalID: 8977197747049615969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37a5e70938d5b7a0800000000000000
+      internalID: -6361941159133731011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2677f15b1679296d0800000000000000
+      internalID: -2985157157086857374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nori emotes sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359ab2bf81e6c8eb0800000000000000
+      internalID: -4716273656191538861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      nori emotes sprite sheet_25: -7222633981033283832
+      nori emotes sprite sheet_37: -4716273656191538861
+      nori emotes sprite sheet_32: 6289983205934211905
+      nori emotes sprite sheet_21: 2430283821023237063
+      nori emotes sprite sheet_11: -4173075860482039781
+      nori emotes sprite sheet_35: -6361941159133731011
+      nori emotes sprite sheet_27: 2627213011922326491
+      nori emotes sprite sheet_1: 751245844928269505
+      nori emotes sprite sheet_19: 7833201893371045360
+      nori emotes sprite sheet_20: 2570841205532587851
+      nori emotes sprite sheet_0: -180024475442730086
+      nori emotes sprite sheet_16: 1540209720576196428
+      nori emotes sprite sheet_26: 1157743261711409280
+      nori emotes sprite sheet_6: 2752015898051030611
+      nori emotes sprite sheet_22: 8299709027040075101
+      nori emotes sprite sheet_33: -518591155985102973
+      nori emotes sprite sheet_34: 8977197747049615969
+      nori emotes sprite sheet_8: -3292901353207502627
+      nori emotes sprite sheet_9: -4175544781001142805
+      nori emotes sprite sheet_15: 6578211176294997212
+      nori emotes sprite sheet_4: -6147914731473587293
+      nori emotes sprite sheet_18: -6138180179682713204
+      nori emotes sprite sheet_23: 8322447880396359997
+      nori emotes sprite sheet_36: -2985157157086857374
+      nori emotes sprite sheet_3: 8571043118965412831
+      nori emotes sprite sheet_31: 7350569059179585165
+      nori emotes sprite sheet_17: -7007596815802231076
+      nori emotes sprite sheet_30: 7985784875110808441
+      nori emotes sprite sheet_2: -5077391090461442194
+      nori emotes sprite sheet_5: 2688004962920771583
+      nori emotes sprite sheet_29: 5326016469131593261
+      nori emotes sprite sheet_7: -2714550880432066900
+      nori emotes sprite sheet_28: 4008014683997309550
+      nori emotes sprite sheet_10: -2554357647888749370
+      nori emotes sprite sheet_14: 1354358256141009471
+      nori emotes sprite sheet_12: -4982832652706341532
+      nori emotes sprite sheet_13: 1214794732191823871
+      nori emotes sprite sheet_24: -5379433804385661319
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
