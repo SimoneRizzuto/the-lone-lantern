@@ -54,8 +54,8 @@ public class InteractionHitboxRotater : MonoBehaviour
 
         if (direction == Directions.Up.ToString())
         {
-            NeutralPosition = this.gameObject.transform.position.x;
-            InFrontPosition = this.gameObject.transform.position.y + distanceInFrontToCheck - _distanceToFloor + 0.8f;
+            NeutralPosition = this.gameObject.transform.position.x;// - 1f;
+            InFrontPosition = this.gameObject.transform.position.y + distanceInFrontToCheck - _distanceToFloor + 0.65f;
 
             xPosition = NeutralPosition;
             yPosition = InFrontPosition;
