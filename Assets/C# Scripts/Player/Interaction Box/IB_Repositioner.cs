@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Reposition : MonoBehaviour
+public class IB_Repositioner : MonoBehaviour
 {
     public float xAxis { get; set; }
     public float yAxis { get; set; }
@@ -24,11 +24,11 @@ public class Reposition : MonoBehaviour
 
     void Update()   
     {
-        var x = player.GetComponent<InteractionHitboxRotater>().xPosition;
-        var y = player.GetComponent<InteractionHitboxRotater>().yPosition;
+        var x = player.GetComponent<IB_Rotater>().xPosition;
+        var y = player.GetComponent<IB_Rotater>().yPosition;
         var position = gameObject.transform.position = new Vector2 (x, y);
 
-        var rotation = player.GetComponent<InteractionHitboxRotater>().rotation;
+        var rotation = player.GetComponent<IB_Rotater>().rotation;
         gameObject.transform.eulerAngles = new Vector3(
             gameObject.transform.eulerAngles.x,
             gameObject.transform.eulerAngles.y,
