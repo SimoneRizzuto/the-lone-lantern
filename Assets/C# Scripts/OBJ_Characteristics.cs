@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Characteristics : MonoBehaviour
+public class OBJ_Characteristics : MonoBehaviour
 {
     /// <summary>
     /// Signifies if an object can register an attack from another object.
