@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollidableObject : MonoBehaviour
+public class IB_IsColliding_Interactable : MonoBehaviour
 {
     [SerializeField] private ContactFilter2D _zFilter;
     private Collider2D collider;
@@ -12,7 +12,7 @@ public class CollidableObject : MonoBehaviour
     protected virtual void Start()
     {
         collider = GetComponent<Collider2D>();
-        interactableBoxObj = GameObject.Find("PlayerObj/InteractionHitbox");
+        interactableBoxObj = GameObject.Find("PFB_Player/InteractionBox");
     }
 
     protected virtual void Update()
@@ -21,19 +21,21 @@ public class CollidableObject : MonoBehaviour
         
         // If no interactable objects.
         if (collidedObjs.Count == 0) return;
-        if (collidedObjs.Find(x => x.GetComponent<Characteristics>().IsInteractable == false)) return;
+        if (collidedObjs.Find(x => x.GetComponent<OBJ_Characteristics>().IsInteractable == false)) return;
         
+        // If 1 interactable object.
         if (collidedObjs.Count == 1)
         {
             Debug.Log($"Collided with: {collidedObjs[0].name}"); return;
         }
         
+        // If x > 1 interactable objects.
         Collider2D closestObj = null;
         foreach (var obj in collidedObjs)
         {
             if (closestObj == null){ closestObj = obj; continue; }
 
-            // find the closest interactable object to the player object
+            // Find the closest interactable object to the IB.
             float currentObjDistance = (obj.transform.position - interactableBoxObj.transform.position).magnitude;
             float closestObjSoFarDistance = (closestObj.transform.position - interactableBoxObj.transform.position).magnitude;
             

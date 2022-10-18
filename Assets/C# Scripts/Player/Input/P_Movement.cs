@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class P_Movement : MonoBehaviour
 {
     [SerializeField] GameObject player_obj;
     [SerializeField] Rigidbody2D player_rb2d;
