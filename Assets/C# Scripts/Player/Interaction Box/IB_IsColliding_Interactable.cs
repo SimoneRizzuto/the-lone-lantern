@@ -15,18 +15,23 @@ public class IB_IsColliding_Interactable : MonoBehaviour
         interactableBoxObj = GameObject.Find("PFB_Player/InteractionBox");
     }
 
-    protected virtual void Update()
+    /* protected virtual void Update()
+    {
+        
+    } */
+
+    public Collider2D IsCollidingWithInteractable()
     {
         collider.OverlapCollider(_zFilter, collidedObjs);
         
         // If no interactable objects.
-        if (collidedObjs.Count == 0) return;
-        if (collidedObjs.Find(x => x.GetComponent<OBJ_Characteristics>().IsInteractable == false)) return;
+        if (collidedObjs.Count == 0) return new Collider2D();
+        if (collidedObjs.Find(x => x.GetComponent<OBJ_Characteristics>().IsInteractable == false)) return new Collider2D();
         
         // If 1 interactable object.
         if (collidedObjs.Count == 1)
         {
-            Debug.Log($"Collided with: {collidedObjs[0].name}"); return;
+            return collidedObjs[0];
         }
         
         // If x > 1 interactable objects.
@@ -42,6 +47,6 @@ public class IB_IsColliding_Interactable : MonoBehaviour
             if (closestObjSoFarDistance > currentObjDistance ) closestObj = obj;
         }
 
-        Debug.Log($"Object to interact w/: {closestObj.name}");               
+        return closestObj;
     }
 }

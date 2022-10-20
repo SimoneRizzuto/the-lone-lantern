@@ -3,14 +3,17 @@
                         +=======+
                         | MAJOR |
                         +=======+
-P   = Player                        (Object that represents PLAYER)
-OBJ = Objects                       (For most OBJECTS)
-PRF = Prefabs                       (Prefabs)
 
++---------------------------------------------------------------------+
 
+ P   = Player                (Object that represents PLAYER)
+ OBJ = Objects               (For most OBJECTS)
+ PRF = Prefabs               (Prefabs)
 
++---------------------------------------------------------------------+
 
-IB  = Interaction Box               (Red Box to detect INTERACTABLES)
-RM  = Room                          (Room => Scene, term comes from GameMaker Studio, bad habit but kept it for clarification for myself)
-CR  = Code Refactoring              (Commits that include only minor refactoring changes for CODE and DEVROOMS)
+ IB  = Interaction Box       (Red Box to detect INTERACTABLES)
+ RM  = Room                  (Room => Scene, term comes from GameMaker Studio, bad habit but kept it for clarification for myself)
+ CR  = Code Refactoring      (Commits that include only minor refactoring changes for CODE and DEVROOMS)
+ DIA = Dialogue              (Related to dialogue)
 

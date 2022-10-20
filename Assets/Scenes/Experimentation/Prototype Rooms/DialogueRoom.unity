@@ -530,7 +530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce58c052358ae94f9d8500642f7e498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 804865803}
 --- !u!1 &882729868
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,11 +822,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f89323c4d91e22c4286c151a02528094, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue_box: {fileID: 1380921104}
-  emote_sprite: {fileID: 804865803}
-  text_label: {fileID: 651992325}
-  text_box_sprite: {fileID: 926389392}
-  text_dialogue: {fileID: 11400000, guid: b4f37bf9e3a8c7745b940e2fcd2e3713, type: 2}
+  dialogueBox: {fileID: 800549045}
+  emoteSprite: {fileID: 804865803}
+  textLabel: {fileID: 651992325}
+  textBoxSprite: {fileID: 926389392}
+  textDialogue: {fileID: 11400000, guid: b4f37bf9e3a8c7745b940e2fcd2e3713, type: 2}
+  type_effect: {fileID: 0}
 --- !u!114 &1380921110
 MonoBehaviour:
   m_ObjectHideFlags: 0

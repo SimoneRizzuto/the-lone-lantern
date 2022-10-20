@@ -21,7 +21,6 @@ public class P_Movement : MonoBehaviour
         player_rb2d = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     // Update is called once per physics rotation
     private void FixedUpdate()
     {

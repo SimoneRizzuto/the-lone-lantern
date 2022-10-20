@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class TypeEffect : MonoBehaviour
+public class DIA_TypeEffect : MonoBehaviour
 {
     public Coroutine Run(string textToType, TMP_Text textLabel, float textSpeed, float textSize)
     {

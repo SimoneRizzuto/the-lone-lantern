@@ -10,9 +10,13 @@ public class P_Interaction : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            var test = GameObject.FindObjectOfType<IB_IsColliding_Interactable>().IsCollidingWithInteractable();
+
+            Debug.Log($"{test.name} is the interactable object.s");
+        }
     }
 }

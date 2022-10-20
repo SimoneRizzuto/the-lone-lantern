@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Dialogue/Dialogue Object")]
-public class DialogueObject : ScriptableObject
+public class DIA_Object : ScriptableObject
 {
     [SerializeField] private SceneScript script;
 
