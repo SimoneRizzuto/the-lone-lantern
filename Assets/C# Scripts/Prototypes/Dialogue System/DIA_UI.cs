@@ -6,11 +6,12 @@ using TMPro;
 
 public class DIA_UI : MonoBehaviour
 {
+    [SerializeField] public DIA_Object TextDialogue;
+
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private Image emoteSprite;
     [SerializeField] private TMP_Text textLabel;
     [SerializeField] private Image textBoxSprite;
-    [SerializeField] private DIA_Object textDialogue;
 
     private DIA_TypeEffect typeEffect;
 
@@ -18,7 +19,7 @@ public class DIA_UI : MonoBehaviour
     {
         typeEffect = GetComponent<DIA_TypeEffect>();
         CloseDialogueBox();
-        ShowDialogue(textDialogue);
+        ShowDialogue(TextDialogue);
     }
 
     public void ShowDialogue(DIA_Object dialogueObject)

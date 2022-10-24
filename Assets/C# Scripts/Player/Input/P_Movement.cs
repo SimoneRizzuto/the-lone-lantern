@@ -24,6 +24,8 @@ public class P_Movement : MonoBehaviour
     // Update is called once per physics rotation
     private void FixedUpdate()
     {
+        //if (FindObjectOfType)
+        
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
             if (Input.GetKey(KeyCode.W))

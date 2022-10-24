@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class DIA_ScriptHolder : MonoBehaviour
 {
-    [SerializeField] private DIA_Object textDialogue;
+    [SerializeField] public DIA_Object TextDialogue;
 }
