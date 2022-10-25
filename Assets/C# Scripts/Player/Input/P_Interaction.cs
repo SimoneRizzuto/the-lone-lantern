@@ -22,24 +22,6 @@ public class P_Interaction : MonoBehaviour
             {
                 dialogueUI.gameObject.SetActive(true);    
             }
-
-            /* Debug.Log(dialogueUI); */
-
-            //transform.Find("../Canvas (UI)/Dialogue Box (Test)").GetComponent<DIA_UI>().TextDialogue = textDialogue;
-
-            //var dialogue_UI =
-
-            //Debug.Log(dialogue_UI.name);
-
-            //var dialogue_UI = transform.parent.transform.Find("Canvas (UI)").transform.GetChild(0).gameObject.name;
-
-            /* dialogue_UI.TextDialogue = textDialogue;
-            
-            if (dialogue_UI.isActiveAndEnabled)
-            {
-                dialogue_UI.enabled = true;
-            } */
-
         }
     }
 }

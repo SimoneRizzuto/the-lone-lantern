@@ -24,8 +24,23 @@ public class P_Movement : MonoBehaviour
     // Update is called once per physics rotation
     private void FixedUpdate()
     {
-        //if (FindObjectOfType)
-        
+        var isDialogueActive = GameObject.Find("Canvas (UI)").transform.GetChild(0).gameObject.activeSelf;
+        if (isDialogueActive) 
+        {
+            x_movement = 0;
+            y_movement = 0;
+
+            player_rb2d.velocity = new Vector2(y_movement, x_movement);
+            player_animator.SetFloat("Speed", 0);
+
+            player_animator.SetBool("Up", false);
+            player_animator.SetBool("Left", false);
+            player_animator.SetBool("Down", false);
+            player_animator.SetBool("Right", false);
+            
+            return;
+        }
+
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
             if (Input.GetKey(KeyCode.W))
