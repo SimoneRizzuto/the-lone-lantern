@@ -35,8 +35,6 @@ public class SceneScript
             allLines.Add(sceneScript[i].Dialogue);
         }
 
-        Debug.Log("testing this works");
-
         return allLines;
     }
 }
