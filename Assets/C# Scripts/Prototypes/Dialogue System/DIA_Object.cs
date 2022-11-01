@@ -28,13 +28,15 @@ public class SceneScript
 
     public List<string> ReturnAllLines()
     {
-        List<string> all_lines = new List<string>();
+        List<string> allLines = new List<string>();
 
         for (int i = 0; i < sceneScript.Length; i++)
         {
-            all_lines.Add(sceneScript[i].Dialogue);
+            allLines.Add(sceneScript[i].Dialogue);
         }
 
-        return all_lines;
+        Debug.Log("testing this works");
+
+        return allLines;
     }
 }

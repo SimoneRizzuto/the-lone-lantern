@@ -14,17 +14,33 @@ public class DIA_UI : MonoBehaviour
     [SerializeField] private Image textBoxSprite;
 
     private DIA_TypeEffect typeEffect;
-
-    private void Start()
+    public bool IsShowingDialogue = false;
+    
+    void Start()
     {
         typeEffect = GetComponent<DIA_TypeEffect>();
-        CloseDialogueBox();
         ShowDialogue(TextDialogue);
+    }
+    void Update()
+    {
+        if (!IsShowingDialogue)
+        {
+            typeEffect = GetComponent<DIA_TypeEffect>();
+            ShowDialogue(TextDialogue);
+        }
+
+        if (this.gameObject.activeInHierarchy)
+        {
+            IsShowingDialogue = true;
+        }
+        else 
+        {
+            IsShowingDialogue = false;
+        }        
     }
 
     public void ShowDialogue(DIA_Object dialogueObject)
     {
-        dialogueBox.SetActive(true);
         StartCoroutine(StepThroughDialogue(dialogueObject));
     }
 
@@ -48,11 +64,14 @@ public class DIA_UI : MonoBehaviour
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
             yield return dialogueObjectCount++;
         }
-        CloseDialogueBox();
+        dialogueObjectCount = 0;
+
+        CloseDialogueBox();        
     }
 
     private void CloseDialogueBox()
     {
+        IsShowingDialogue = false;
         dialogueBox.SetActive(false);
         textLabel.text = string.Empty;
     }

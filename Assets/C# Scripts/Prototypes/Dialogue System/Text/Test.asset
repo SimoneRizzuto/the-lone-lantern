@@ -31,26 +31,3 @@ MonoBehaviour:
       TypeSpeed: 15
       FontSize: 4.4
       Colour: {r: 1, g: 1, b: 1, a: 0}
-    - Emote: {fileID: 4291334345561065611, guid: 2e471a9b51cf12f48a5681b80c5f5b77, type: 3}
-      Voice: {fileID: 0}
-      TextBox: {fileID: 4341036349320981296, guid: 5244a62095f7bcd498809687e173f30a, type: 3}
-      Dialogue: Have you seen a lost soul around? I believe their name is Nori.
-      TypeSpeed: 30
-      FontSize: 4.4
-      Colour: {r: 1, g: 1, b: 1, a: 0}
-    - Emote: {fileID: -180024475442730086, guid: 7c7a274d9b42ed94b80731fb0cd4eb63, type: 3}
-      Voice: {fileID: 0}
-      TextBox: {fileID: -4207128926276634035, guid: 5244a62095f7bcd498809687e173f30a, type: 3}
-      Dialogue: 'Oh...
-
-        That''s me...'
-      TypeSpeed: 10
-      FontSize: 3
-      Colour: {r: 1, g: 1, b: 1, a: 0}
-    - Emote: {fileID: 2430283821023237063, guid: 7c7a274d9b42ed94b80731fb0cd4eb63, type: 3}
-      Voice: {fileID: 0}
-      TextBox: {fileID: -4207128926276634035, guid: 5244a62095f7bcd498809687e173f30a, type: 3}
-      Dialogue: Hello?
-      TypeSpeed: 30
-      FontSize: 4.4
-      Colour: {r: 1, g: 1, b: 1, a: 0}

@@ -662,6 +662,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1017440840797698709, guid: d30345d2c2fb1c9428e02a4fbcbb2f7b, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1017440840797698711, guid: d30345d2c2fb1c9428e02a4fbcbb2f7b, type: 3}
       propertyPath: movement_allowed
       value: 1
@@ -1154,7 +1158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Test\nTest\nTesting
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1038ebf41ccd2364b8f6de17781052e2, type: 2}
   m_sharedMaterial: {fileID: -679786568201521123, guid: 1038ebf41ccd2364b8f6de17781052e2, type: 2}
