@@ -15,11 +15,6 @@ public class IB_IsColliding_Interactable : MonoBehaviour
         interactableBoxObj = GameObject.Find("PFB_Player/InteractionBox");
     }
 
-    /* protected virtual void Update()
-    {
-        
-    } */
-
     public Collider2D IsCollidingWithInteractable()
     {
         collider.OverlapCollider(_zFilter, collidedObjs);

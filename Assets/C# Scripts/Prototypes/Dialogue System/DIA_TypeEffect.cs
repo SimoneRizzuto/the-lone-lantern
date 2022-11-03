@@ -30,6 +30,11 @@ public class DIA_TypeEffect : MonoBehaviour
 
             textLabel.text = textToType.Substring(0, char_index);
 
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                char_index = textToType.Length;
+            }
+
             yield return null;
         }
 
