@@ -556,53 +556,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &529196027 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4472487596030464387, guid: e381b5eb47e834045b721b19312b5bca, type: 3}
-  m_PrefabInstance: {fileID: 1632590117}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &529196028
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529196027}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.13410503}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.13, y: 0.36}
-    newSize: {x: 0.13, y: 0.36}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.13, y: 0.091789946}
-  m_EdgeRadius: 0
---- !u!114 &529196032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529196027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd57326df1b463443a974b63714633c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsAttackable: 0
-  IsInteractable: 1
-  IsSolid: 0
-  IsGrounded: 0
 --- !u!1001 &599917462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1030,25 +983,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: PFB_TestNPC
       objectReference: {fileID: 0}
-    - target: {fileID: 7915683336674202620, guid: e381b5eb47e834045b721b19312b5bca, type: 3}
-      propertyPath: TextDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: b4f37bf9e3a8c7745b940e2fcd2e3713, type: 2}
-    - target: {fileID: 7915683336674202620, guid: e381b5eb47e834045b721b19312b5bca, type: 3}
-      propertyPath: textDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: b4f37bf9e3a8c7745b940e2fcd2e3713, type: 2}
     - target: {fileID: 8598739625062169418, guid: e381b5eb47e834045b721b19312b5bca, type: 3}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598739625062169418, guid: e381b5eb47e834045b721b19312b5bca, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598739625062169418, guid: e381b5eb47e834045b721b19312b5bca, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8598739625062169418, guid: e381b5eb47e834045b721b19312b5bca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1494,3 +1431,4 @@ MonoBehaviour:
   emoteSprite: {fileID: 1978718598}
   textLabel: {fileID: 1691512767}
   textBoxSprite: {fileID: 1958973326}
+  IsShowingDialogue: 0
