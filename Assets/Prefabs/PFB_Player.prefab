@@ -374,7 +374,7 @@ MonoBehaviour:
   player_rb2d: {fileID: 1017440840797698710}
   player_animator: {fileID: 1017440840797698708}
   max_speed: 4
-  movement_allowed: 0
+  movement_allowed: 1
 --- !u!114 &570369113587814891
 MonoBehaviour:
   m_ObjectHideFlags: 0

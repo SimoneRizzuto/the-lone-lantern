@@ -28,6 +28,6 @@ MonoBehaviour:
       Dialogue: '...
 
         I am in need of help...'
-      TypeSpeed: 15
+      TypeSpeed: 2.43
       FontSize: 4.4
       Colour: {r: 1, g: 1, b: 1, a: 0}

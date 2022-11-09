@@ -473,7 +473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &517795871
 RectTransform:
   m_ObjectHideFlags: 0
@@ -567,10 +567,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PFB_Player
       objectReference: {fileID: 0}
-    - target: {fileID: 1017440840618068604, guid: d30345d2c2fb1c9428e02a4fbcbb2f7b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1017440840618068607, guid: d30345d2c2fb1c9428e02a4fbcbb2f7b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -614,14 +610,6 @@ PrefabInstance:
     - target: {fileID: 1017440840618068607, guid: d30345d2c2fb1c9428e02a4fbcbb2f7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1017440840797698709, guid: d30345d2c2fb1c9428e02a4fbcbb2f7b, type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1017440840797698711, guid: d30345d2c2fb1c9428e02a4fbcbb2f7b, type: 3}
-      propertyPath: movement_allowed
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d30345d2c2fb1c9428e02a4fbcbb2f7b, type: 3}
@@ -1322,6 +1310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce58c052358ae94f9d8500642f7e498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  XScale: 1
+  YScale: 1
 --- !u!222 &1978718597
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1350,7 +1340,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -180024475442730086, guid: 7c7a274d9b42ed94b80731fb0cd4eb63, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c088631e4a79935468e839783d03244b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -8,6 +8,9 @@ public class SpriteSizeAdjuster : MonoBehaviour
     //GameObject gameobject_image;
     Image image; 
 
+    [SerializeField] public float XScale = 1f;
+    [SerializeField] public float YScale = 1f;
+
     private Sprite sprite;
     private float sprite_width;
     private float sprite_height;
@@ -37,7 +40,7 @@ public class SpriteSizeAdjuster : MonoBehaviour
 
         image.rectTransform.sizeDelta = new Vector2(sprite_width, sprite_height);
         image.rectTransform.localPosition = new Vector2(0, 0);
-        image.rectTransform.localScale = new Vector2(10f, 10f);
+        image.rectTransform.localScale = new Vector2(XScale, YScale);
 
 
         //Debug.Log(sprite_width + " " + sprite_height); 
