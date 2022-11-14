@@ -1,4 +1,4 @@
-# The-Lone-Lantern #
+# the-lone-lantern #
 "When death arrives... who's eyes are awaiting for yours?"
 
 My repository for my passion project.
