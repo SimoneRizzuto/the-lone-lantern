@@ -1,0 +1,2 @@
+NOTES FOR CANVAS (UI)
+Do not rename the object, as P_Interaction.cs uses the specific name for finding it.
