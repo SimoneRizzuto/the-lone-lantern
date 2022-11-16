@@ -24,7 +24,13 @@ public class P_Movement : MonoBehaviour
     // Update is called once per physics rotation
     private void FixedUpdate()
     {
-        var isDialogueActive = GameObject.Find("Canvas (UI)").transform.GetChild(0).gameObject.activeSelf;
+        var isDialogueActive = GameObject.Find("PFB_CanvasUI").transform.GetChild(0).gameObject.activeSelf;
+
+        // => var isCollidingWithCutsceneTrigger = GameObject.FindObjectOfType<OBJ_IsColliding_CutsceneTrigger>().IsCollidingWithPlayer();
+        // Change game state to cutscene
+
+        var isCollidingWithInteractableObject = GameObject.FindObjectOfType<IB_IsColliding_Interactable>().IsCollidingWithInteractable();
+
         if (isDialogueActive) 
         {
             x_movement = 0;

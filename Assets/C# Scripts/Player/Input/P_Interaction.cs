@@ -13,7 +13,7 @@ public class P_Interaction : MonoBehaviour
             if (scriptHolder == null) return;
 
             DIA_Object textDialogue = scriptHolder.TextDialogue;
-            var dialogueUI = GameObject.Find("Canvas (UI)").transform.GetChild(0).GetComponent<DIA_UI>();
+            var dialogueUI = GameObject.Find("PFB_CanvasUI").transform.GetChild(0).GetComponent<DIA_UI>();
 
             dialogueUI.TextDialogue = textDialogue;
             if (!dialogueUI.isActiveAndEnabled)

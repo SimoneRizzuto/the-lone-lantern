@@ -1,2 +1,2 @@
-NOTES FOR CANVAS (UI)
+NOTES FOR "PFB_CanvasUI"
 Do not rename the object, as P_Interaction.cs uses the specific name for finding it.

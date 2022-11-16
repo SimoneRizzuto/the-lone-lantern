@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using TMPro;
 
 // How to use:
-// Add this to a Canvas (UI) object. It should automatically work, depending on everything else being setup.
+// Add this to a "PFB_CanvasUI" object. It should automatically work, depending on everything else being setup.
 // Should be on the highest layer.
 // Refer to DevRoom for reference.
 
