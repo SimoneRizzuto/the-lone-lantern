@@ -70,13 +70,18 @@ public class DIA_UI : MonoBehaviour
         }
         dialogueObjectCount = 0;
 
-        CloseDialogueBox();        
+        CloseDialogueBox(dialogueObject);        
     }
 
-    private void CloseDialogueBox()
+    private void CloseDialogueBox(DIA_Object dialogueObject)
     {
         IsShowingDialogue = false;
-        dialogueBox.SetActive(false);
+
+        var finalLine = dialogueObject.SceneScript.sceneScript[dialogueObject.SceneScript.sceneScript.Length - 1];
+        
+        GameObject.Find("PFB_StateManager").GetComponent<OBJ_GameState>().SetDirectly(finalLine.GameStateSetForFinalLine);
+        
         textLabel.text = string.Empty;
+        dialogueBox.SetActive(false);
     }
 }

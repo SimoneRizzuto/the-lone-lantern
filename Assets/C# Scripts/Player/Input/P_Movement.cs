@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class P_Movement : MonoBehaviour
@@ -14,16 +12,17 @@ public class P_Movement : MonoBehaviour
 
     public bool movement_allowed;
 
-    // Start is called before the first frame update
     void Start()
     {
         Physics2D.gravity = Vector2.zero;
         player_rb2d = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per physics rotation
     private void FixedUpdate()
     {
+        var currentGameState = GameObject.Find("PFB_StateManager").GetComponent<OBJ_GameState>().CurrentGameState;
+        
+        // might be unnesesary, as long as I handle the GameState correctly.
         var isDialogueActive = GameObject.Find("PFB_CanvasUI").transform.GetChild(0).gameObject.activeSelf;
 
         // => var isCollidingWithCutsceneTrigger = GameObject.FindObjectOfType<OBJ_IsColliding_CutsceneTrigger>().IsCollidingWithPlayer();
@@ -31,7 +30,7 @@ public class P_Movement : MonoBehaviour
 
         var isCollidingWithInteractableObject = GameObject.FindObjectOfType<IB_IsColliding_Interactable>().IsCollidingWithInteractable();
 
-        if (isDialogueActive) 
+        if (currentGameState is Constants.GameState.Interaction or Constants.GameState.Menu or Constants.GameState.Cutscene)
         {
             x_movement = 0;
             y_movement = 0;

@@ -20,6 +20,7 @@ public class SceneLine
     public float TypeSpeed;
     public float FontSize;
     public Color Colour;
+    public Constants.GameState GameStateSetForFinalLine; // When empty, make default to GameState.Normal.
 }
 [System.Serializable]
 public class SceneScript

@@ -18,7 +18,7 @@ public class P_Interaction : MonoBehaviour
             dialogueUI.TextDialogue = textDialogue;
             if (!dialogueUI.isActiveAndEnabled)
             {
-                dialogueUI.gameObject.SetActive(true);    
+                GameObject.Find("PFB_StateManager").GetComponent<OBJ_GameState>().SetToInteraction();
             }
         }
     }
