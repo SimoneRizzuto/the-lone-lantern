@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class OBJ_Characteristics : MonoBehaviour
 {
+    [SerializeField] public bool IsPlayer = false;
     /// <summary>
     /// Signifies if an object can register an attack from another object.
     /// </summary>

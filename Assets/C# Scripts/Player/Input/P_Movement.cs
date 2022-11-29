@@ -21,14 +21,11 @@ public class P_Movement : MonoBehaviour
     private void FixedUpdate()
     {
         var currentGameState = GameObject.Find("PFB_StateManager").GetComponent<OBJ_GameState>().CurrentGameState;
-        
-        // might be unnesesary, as long as I handle the GameState correctly.
-        var isDialogueActive = GameObject.Find("PFB_CanvasUI").transform.GetChild(0).gameObject.activeSelf;
 
         // => var isCollidingWithCutsceneTrigger = GameObject.FindObjectOfType<OBJ_IsColliding_CutsceneTrigger>().IsCollidingWithPlayer();
         // Change game state to cutscene
 
-        var isCollidingWithInteractableObject = GameObject.FindObjectOfType<IB_IsColliding_Interactable>().IsCollidingWithInteractable();
+        //var isCollidingWithInteractableObject = GameObject.FindObjectOfType<IB_IsColliding_Interactable>().IsCollidingWithInteractable();
 
         if (currentGameState is Constants.GameState.Interaction or Constants.GameState.Menu or Constants.GameState.Cutscene)
         {
