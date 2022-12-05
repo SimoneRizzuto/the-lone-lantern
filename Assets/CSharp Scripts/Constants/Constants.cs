@@ -1,5 +1,12 @@
-public static class Constants
+namespace CSharp_Scripts.Constants
 {
+    public enum FontSizes
+    {
+        Whisper,
+        Normal,
+        Yell
+    };
+
     public enum GameState
     {
         Normal = 0,

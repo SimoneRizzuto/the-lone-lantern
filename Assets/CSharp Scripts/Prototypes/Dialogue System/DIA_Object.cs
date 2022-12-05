@@ -1,5 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
+using CSharp_Scripts.Constants;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Dialogue/Dialogue Object")]
@@ -20,7 +20,7 @@ public class SceneLine
     public float TypeSpeed;
     public float FontSize;
     public Color Colour;
-    public Constants.GameState GameStateSetForFinalLine; // When empty, make default to GameState.Normal.
+    public GameState GameStateSetForFinalLine; // When empty, make default to GameState.Normal.
 }
 [System.Serializable]
 public class SceneScript
