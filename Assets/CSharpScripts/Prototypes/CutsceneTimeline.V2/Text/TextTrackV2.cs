@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-namespace CSharp_Scripts.Prototypes.Cutscene_System__Timeline__V2.Text
+namespace CSharpScripts.Prototypes.CutsceneTimeline.V2.Text
 {
     [TrackColor(0, 255, 0)]
     [TrackBindingType(typeof(TextMeshProUGUI))]

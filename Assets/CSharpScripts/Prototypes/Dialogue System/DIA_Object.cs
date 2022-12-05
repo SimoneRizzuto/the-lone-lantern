@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using CSharp_Scripts.Constants;
+using CSharpScripts.Constants;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Dialogue/Dialogue Object")]

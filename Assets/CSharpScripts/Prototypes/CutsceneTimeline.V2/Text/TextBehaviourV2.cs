@@ -1,9 +1,9 @@
-using CSharp_Scripts.Constants;
+using CSharpScripts.Constants;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace CSharp_Scripts.Prototypes.Cutscene_System__Timeline__V2.Text
+namespace CSharpScripts.Prototypes.CutsceneTimeline.V2.Text
 {
     public class TextBehaviourV2 : PlayableBehaviour
     {

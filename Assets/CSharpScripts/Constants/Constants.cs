@@ -1,4 +1,4 @@
-namespace CSharp_Scripts.Constants
+namespace CSharpScripts.Constants
 {
     public enum FontSizes
     {

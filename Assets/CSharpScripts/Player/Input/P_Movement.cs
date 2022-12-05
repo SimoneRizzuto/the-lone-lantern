@@ -1,4 +1,5 @@
-using CSharp_Scripts.Constants;
+using CSharpScripts;
+using CSharpScripts.Constants;
 using UnityEngine;
 
 namespace CSharp_Scripts.Player.Input

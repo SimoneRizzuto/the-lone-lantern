@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine.Playables;
 
-namespace CSharp_Scripts.Prototypes.Cutscene_System__Timeline__V2.Text
+namespace CSharpScripts.Prototypes.CutsceneTimeline.V2.Text
 {
     public class TextTrackMixerV2 : PlayableBehaviour
     {

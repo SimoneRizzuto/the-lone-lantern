@@ -1,7 +1,7 @@
-using CSharp_Scripts.Constants;
+using CSharpScripts.Constants;
 using UnityEngine;
 
-namespace CSharp_Scripts
+namespace CSharpScripts
 {
     public class OBJ_GameState : MonoBehaviour
     {
