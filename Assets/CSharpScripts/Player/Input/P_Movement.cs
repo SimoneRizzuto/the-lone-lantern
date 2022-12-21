@@ -10,8 +10,8 @@ namespace CSharp_Scripts.Player.Input
         [SerializeField] Rigidbody2D player_rb2d;
         [SerializeField] Animator player_animator;
 
-        private float moveSpeed = 4;
         [SerializeField] private float max_speed = 4;
+        private float moveSpeed = 4;
         private float xMovement, yMovement;
 
         void Start()
