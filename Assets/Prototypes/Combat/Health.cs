@@ -1,10 +1,16 @@
+using System;
 using UnityEngine;
 using UnityEngine.Serialization;
 
 public class Health : MonoBehaviour
 {
-    public readonly float MaxHealth = 100f;
-    public float CurrentHealth = 100f;
+    public readonly float MaxHealth = 1000f;
+    public float CurrentHealth { get; set; } = 1000f; 
+
+    private void Start()
+    {
+        CurrentHealth = 1000f;
+    }
 
     void HealthCheck(float h = float.NaN)
     {

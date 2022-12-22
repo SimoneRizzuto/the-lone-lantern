@@ -8,7 +8,7 @@ public class PRO_Attack : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.None)) { return; }
 
-        if (Input.GetKeyUp(KeyCode.Mouse0)) // Left click
+        if (Input.GetKeyDown(KeyCode.Mouse0)) // Left click
         {
             // Check for animation still playing
             //if (animation == null)
@@ -16,7 +16,7 @@ public class PRO_Attack : MonoBehaviour
             // Attack
             
             // Remove StaminaHealth
-            PlayerHealthController.AccumulateHealth(-10);
+            PlayerHealthController.AccumulateHealth(-150f);
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse1)) // Right click
@@ -29,7 +29,7 @@ public class PRO_Attack : MonoBehaviour
             
         }
         
-        if (Input.GetKeyDown(KeyCode.LeftControl) && Input.GetKey(KeyCode.Z)) // Ctrl+Z
+        if (Input.GetKey(KeyCode.LeftControl) && Input.GetKey(KeyCode.Z)) // Ctrl+Z
         {
             PlayerHealthController.SetHealth(PlayerHealthController.PlayerHealth.MaxHealth);
         }
