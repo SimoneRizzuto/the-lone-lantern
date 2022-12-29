@@ -1069,6 +1069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdbe529007b8754f869fc0ccad6ffe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Animator: {fileID: 1017440839898490812}
   PlayerHealthController: {fileID: 890236126}
 --- !u!114 &1017440839898490821
 MonoBehaviour:
@@ -1082,7 +1083,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20857cf70e5b6e8498c977ce7b49cbcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentHealth: 1000
 --- !u!1 &1017440840276285268
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class PRO_PlayerHealthController : MonoBehaviour
 
     private bool isRegenerating;
     private int bufferTimer = 0;
-    private readonly int bufferTimerTrigger = 100;
+    private readonly int bufferTimerTrigger = 50 * 2; // 3 seconds
 
     void Start()
     {
