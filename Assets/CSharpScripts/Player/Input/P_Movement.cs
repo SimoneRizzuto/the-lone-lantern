@@ -143,7 +143,7 @@ namespace CSharp_Scripts.Player.Input
                     player_animator.SetBool("Left", true);
                     player_animator.SetInteger("LastDirection", 2);
                 }
-                else if (UnityEngine.Input.GetKey(KeyCode.D))
+                if (UnityEngine.Input.GetKey(KeyCode.D))
                 {
                     xMovement = moveSpeed;
                     player_animator.SetFloat("Speed", moveSpeed);
@@ -169,7 +169,7 @@ namespace CSharp_Scripts.Player.Input
                     player_animator.SetBool("Up", true);
                     player_animator.SetInteger("LastDirection", 1);
                 }
-                else if (UnityEngine.Input.GetKey(KeyCode.S))
+                if (UnityEngine.Input.GetKey(KeyCode.S))
                 {
                     yMovement = -moveSpeed;
                     player_animator.SetFloat("Speed", moveSpeed);

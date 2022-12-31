@@ -30,8 +30,58 @@ public class PRO_Attack : MonoBehaviour
         
         if (leftClickInput)
         {
+            if (Animator.GetBool("Up"))
+            {
+                if (Animator.GetBool("Right"))
+                {
+                    Debug.Log("UP RIGHT");
+                    return;
+                }
+
+                if (Animator.GetBool("Left"))
+                {
+                    Debug.Log("UP LEFT");
+                    return;
+                }
+
+                Debug.Log("UP");
+                return;
+            }
+
+            if (Animator.GetBool("Down"))   
+            {
+                if (Animator.GetBool("Right"))
+                {
+                    Debug.Log("DOWN RIGHT");
+                    return;
+                }
+
+                if (Animator.GetBool("Left"))
+                {
+                    Debug.Log("DOWN LEFT");
+                    return;
+                }
+                
+                Debug.Log("DOWN");
+                return;
+            }
+            
+            if (Animator.GetBool("Left"))
+            {
+                Debug.Log("LEFT");
+                return;
+            }
+
+            if (Animator.GetBool("Right"))
+            {
+                Debug.Log("RIGHT");
+                return;
+            }
+            
+            
+            
             // Check for animation still playing
-            //if (animation == null) 
+            //if (animation == null)
             // play animation
             Animator.SetTrigger("Light Attack");
             
