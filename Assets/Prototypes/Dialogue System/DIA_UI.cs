@@ -34,7 +34,7 @@ public class DIA_UI : MonoBehaviour
             ShowDialogue(TextDialogue);
         }
 
-        if (this.gameObject.activeInHierarchy)
+        if (gameObject.activeInHierarchy)
         {
             IsShowingDialogue = true;
         }
@@ -69,7 +69,6 @@ public class DIA_UI : MonoBehaviour
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
             yield return dialogueObjectCount++;
         }
-        dialogueObjectCount = 0;
 
         CloseDialogueBox(dialogueObject);        
     }

@@ -35,17 +35,14 @@ public class PRO_Attack : MonoBehaviour
                 if (Animator.GetBool("Right"))
                 {
                     Debug.Log("UP RIGHT");
-                    return;
                 }
 
                 if (Animator.GetBool("Left"))
                 {
                     Debug.Log("UP LEFT");
-                    return;
                 }
 
                 Debug.Log("UP");
-                return;
             }
 
             if (Animator.GetBool("Down"))   
@@ -53,29 +50,24 @@ public class PRO_Attack : MonoBehaviour
                 if (Animator.GetBool("Right"))
                 {
                     Debug.Log("DOWN RIGHT");
-                    return;
                 }
 
                 if (Animator.GetBool("Left"))
                 {
                     Debug.Log("DOWN LEFT");
-                    return;
                 }
                 
                 Debug.Log("DOWN");
-                return;
             }
             
             if (Animator.GetBool("Left"))
             {
                 Debug.Log("LEFT");
-                return;
             }
 
             if (Animator.GetBool("Right"))
             {
                 Debug.Log("RIGHT");
-                return;
             }
             
             
