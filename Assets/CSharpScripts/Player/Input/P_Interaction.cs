@@ -7,7 +7,7 @@ public class P_Interaction : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            var interactableObject = GameObject.FindObjectOfType<IB_IsColliding_Interactable>().IsCollidingWithInteractable();
+            var interactableObject = FindObjectOfType<IB_IsColliding_Interactable>().IsCollidingWithInteractable();
             if (interactableObject == null) return;
 
             var scriptHolder = interactableObject.GetComponent<DIA_ScriptHolder>();

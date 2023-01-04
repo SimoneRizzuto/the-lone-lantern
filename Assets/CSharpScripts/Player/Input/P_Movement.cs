@@ -9,7 +9,7 @@ public class P_Movement : MonoBehaviour
     [SerializeField] Animator player_animator;
 
     [SerializeField] private float max_speed = 4;
-    private float moveSpeed = 4;
+    private readonly float moveSpeed = 4;
     private float xMovement, yMovement;
 
     void Start()
@@ -38,20 +38,10 @@ public class P_Movement : MonoBehaviour
         player_animator.SetBool("Right", false);
         
         if (currentGameState is GameState.Interaction or GameState.Menu or GameState.Cutscene) return;
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)) return;
-        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D)) 
+        
+        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D))
         {
-            xMovement = 0;
-            yMovement = 0;
-
-            player_rb2d.velocity = new Vector2(yMovement, xMovement);
-            player_animator.SetFloat("Speed", 0);
-            player_animator.SetInteger("LastDirection", 0);
-
-            player_animator.SetBool("Up", false);
-            player_animator.SetBool("Left", false);
-            player_animator.SetBool("Down", false);
-            player_animator.SetBool("Right", false);
+            ResetMovement();
             return;
         }
         
@@ -149,6 +139,19 @@ public class P_Movement : MonoBehaviour
         {
             player_rb2d.velocity = player_rb2d.velocity.normalized * max_speed;
         }
+    }
+    void ResetMovement()
+    {
+        xMovement = 0;
+        yMovement = 0;
+
+        player_rb2d.velocity = new Vector2(yMovement, xMovement);
+        player_animator.SetFloat("Speed", 0);
+
+        player_animator.SetBool("Up", false);
+        player_animator.SetBool("Left", false);
+        player_animator.SetBool("Down", false);
+        player_animator.SetBool("Right", false);
     }
 }
 
