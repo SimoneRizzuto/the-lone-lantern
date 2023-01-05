@@ -22,10 +22,24 @@ public class PRO_Attack : MonoBehaviour
 
         var noAttackInputs = !leftClickInput && !rightClickInput && !middleClickInput;
 
+        var animationsPlaying = Animator.GetCurrentAnimatorClipInfo(0);
+        
+        if (animationsPlaying.Length != 0)
+        {
+            foreach (var anim in animationsPlaying)
+            {
+                if (anim.clip.name == "luce_attack_left_test") return;
+                if (anim.clip.name == "luce_attack_up_test") return;
+                if (anim.clip.name == "luce_attack_down_test") return;
+                if (anim.clip.name == "luce_attack_right_test") return;
+            }
+        }
+        
         if (noAttackInputs)
         {
-            Animator.ResetTrigger("Light Attack");
-            return;
+            //Animator.ResetTrigger("Light Attack");
+            
+            //return;
         }
         if (PlayerHealthController.PlayerHealth.GetHealth() <= 0) { return; }
         
