@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using UnityEngine;
 
 public class PRO_Attack : MonoBehaviour
@@ -30,48 +31,44 @@ public class PRO_Attack : MonoBehaviour
         
         if (leftClickInput)
         {
-            if (Animator.GetBool("Up"))
+            if (Animator.GetBool("Up") || Animator.GetInteger("LastDirection") == 1) // 1
             {
+                Animator.SetTrigger("Up");
                 if (Animator.GetBool("Right"))
                 {
-                    Debug.Log("UP RIGHT");
+                    Animator.SetTrigger("Right");
                 }
 
                 if (Animator.GetBool("Left"))
                 {
-                    Debug.Log("UP LEFT");
+                    Animator.SetTrigger("Left");
                 }
-
-                Debug.Log("UP");
             }
 
-            if (Animator.GetBool("Down"))   
+            if (Animator.GetBool("Down") || Animator.GetInteger("LastDirection") == 0) // 0
             {
+                Animator.SetTrigger("Down");
                 if (Animator.GetBool("Right"))
                 {
-                    Debug.Log("DOWN RIGHT");
+                    Animator.SetTrigger("Right");
                 }
 
                 if (Animator.GetBool("Left"))
                 {
-                    Debug.Log("DOWN LEFT");
+                    Animator.SetTrigger("Left");
                 }
-                
-                Debug.Log("DOWN");
             }
             
-            if (Animator.GetBool("Left"))
+            if (Animator.GetBool("Left") || Animator.GetInteger("LastDirection") == 2) // 2
             {
-                Debug.Log("LEFT");
+                Animator.SetTrigger("Left");
             }
 
-            if (Animator.GetBool("Right"))
+            if (Animator.GetBool("Right") || Animator.GetInteger("LastDirection") == 3) // 3
             {
-                Debug.Log("RIGHT");
+                Animator.SetTrigger("Right");
             }
-            
-            
-            
+
             // Check for animation still playing
             //if (animation == null)
             // play animation
