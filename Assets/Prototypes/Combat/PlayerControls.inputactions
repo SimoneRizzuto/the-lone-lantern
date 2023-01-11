@@ -1,0 +1,123 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Luce Map",
+            "id": "51a1ebef-2461-44d6-971c-2821f442d1ca",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "250c2c09-6d38-4eb3-85a1-6be048bf94d1",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "d637b2ee-de3a-4297-b4f2-5740576c248b",
+                    "path": "2DVector(mode=2)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "60391e9a-9bf7-45ee-86e1-7d348df260fc",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=0.075)",
+                    "groups": "Gamepad;Joystick",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "ec89af93-be45-4298-8e0f-d0de5ac2a0bc",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=0.075)",
+                    "groups": "Gamepad;Joystick",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "7ac58c1d-8a18-42ae-a498-c494115178e7",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=0.075)",
+                    "groups": "Gamepad;Joystick",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "8a8a55b5-86f5-4bd0-b5fa-40544815053e",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=0.075)",
+                    "groups": "Gamepad;Joystick",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Firefly Map",
+            "id": "912dc59b-ef9b-4eaa-8a66-6e951c407263",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard and Mouse",
+            "bindingGroup": "Keyboard and Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Joystick",
+            "bindingGroup": "Joystick",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
